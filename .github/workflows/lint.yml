@@ -19,4 +19,4 @@ jobs:
           cache: npm
       - run: npm ci
       - name: execute Lint
-        run: npm ng lint
+        run: npx ng lint
