@@ -23,7 +23,6 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: hello-Angular/package-lock.json
 
       - name: Install dependencies and build
         run: npm ci
